@@ -1,8 +1,9 @@
 
-
-
 def summe(liste):
-    pass
+    menge = 0
+    for n in liste:
+        menge += n
+    return menge
 
 def mittelwert(liste):
     pass
@@ -26,3 +27,5 @@ print(paar) # Ausgabe: (-3, 17)
 
 
 print(spannweite( [2, 5, 4.3, 9])) # Ausgabe: 7
+
+
